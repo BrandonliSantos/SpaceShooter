@@ -1,6 +1,16 @@
 {
   "resources": [
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"spr_player_tiro","path":"sprites/spr_player_tiro/spr_player_tiro.yy",},"order":1,},
+    {"id":{"name":"spr_tiro1","path":"sprites/spr_tiro1/spr_tiro1.yy",},"order":1,},
+    {"id":{"name":"obj_player_tiro","path":"objects/obj_player_tiro/obj_player_tiro.yy",},"order":1,},
+    {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"order":0,},
+    {"id":{"name":"spr_impacto_tiro","path":"sprites/spr_impacto_tiro/spr_impacto_tiro.yy",},"order":2,},
+    {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},"order":0,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":0,},
+    {"id":{"name":"obj_impacto_tiro","path":"objects/obj_impacto_tiro/obj_impacto_tiro.yy",},"order":2,},
+    {"id":{"name":"obj_tiro1","path":"objects/obj_tiro1/obj_tiro1.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -8,7 +18,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "isDnDProject": false,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
@@ -32,16 +42,20 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Player.yy","order":4,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Enemy.yy","order":5,"resourceVersion":"1.0","name":"Enemy","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Player.yy","order":4,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Enemy.yy","order":5,"resourceVersion":"1.0","name":"Enemy","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.1.618",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "Shooter",
