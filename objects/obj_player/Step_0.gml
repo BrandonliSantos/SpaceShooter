@@ -7,6 +7,6 @@ esquerda = keyboard_check(ord("A"));
 y += (baixo - cima) * velocidade;
 x += (direita - esquerda) * velocidade;
 
-atirando();
+
 
 

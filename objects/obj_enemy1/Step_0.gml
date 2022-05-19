@@ -1,4 +1,4 @@
-if(y > 1200)
+if(y > room_height + 100)
 	instance_destroy(id, false);
 	
 
