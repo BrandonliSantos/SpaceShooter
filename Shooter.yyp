@@ -8,6 +8,7 @@
     {"id":{"name":"spr_tiro1","path":"sprites/spr_tiro1/spr_tiro1.yy",},"order":1,},
     {"id":{"name":"spr_tiro_enemy_detalhe","path":"sprites/spr_tiro_enemy_detalhe/spr_tiro_enemy_detalhe.yy",},"order":4,},
     {"id":{"name":"spr_explosao","path":"sprites/spr_explosao/spr_explosao.yy",},"order":2,},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":6,},
     {"id":{"name":"obj_player_tiro","path":"objects/obj_player_tiro/obj_player_tiro.yy",},"order":1,},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"order":0,},
     {"id":{"name":"spr_impacto_tiro","path":"sprites/spr_impacto_tiro/spr_impacto_tiro.yy",},"order":2,},

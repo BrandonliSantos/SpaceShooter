@@ -7,6 +7,8 @@ event_inherited();
 //variavel de controle
 podeMoverLado = true;
 
+pontos = 20;
+
 atirando = function()
 {
 	if(y >= 0 && y <= room_height)
