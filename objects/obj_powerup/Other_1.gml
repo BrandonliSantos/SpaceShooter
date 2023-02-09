@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Hora de sair ou entrar na room
 
+direction += 180;

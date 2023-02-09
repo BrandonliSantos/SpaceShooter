@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+chance = 30;
+
 //variavel de controle
 podeMoverLado = true;
 

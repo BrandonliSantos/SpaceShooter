@@ -1,5 +1,10 @@
+//randomizando
+randomize();
+
 //iniciando alarm de spawn de inimigos
 alarm[0] = room_speed;
+
+gameover_seq = noone;
 
 //sistema de pontos
 pontos = 0;
@@ -9,12 +14,16 @@ level = 1;
 
 proximo_level = 100;
 
+chefe_criado = false;
+
+fim_jogo = false;
+
 //ganhando pontos
 
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos)
 {
-	pontos += _pontos;
+	pontos += _pontos * level;
 	
 	if(pontos > proximo_level)
 	{
@@ -27,7 +36,9 @@ ganha_pontos = function(_pontos)
 criar_inimigo = function()
 {
 	var spawnPosX = irandom_range(150, room_width-150);
-	var spawnPosY = irandom_range(-320, -1568);
+	
+	//aumentando o limite com base no level atual
+	var spawnPosY = irandom_range(-320, -1568 - (level * 500));
 	var inimigo = obj_enemy1;
 	var probabilidade = random_range(0, level);
 

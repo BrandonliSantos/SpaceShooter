@@ -11,6 +11,13 @@ cooldown = room_speed;
 
 level_tiro = 1;
 
+//sistema de vida
+vida = 3;
+
+meu_escudo = noone;
+
+//sistema de escudo
+escudos_disponiveis = 3;
 
 
 atirando = function()
@@ -78,18 +85,28 @@ powerUP = function(porcentagem)
 	{
 		if(velocidade < 10)
 			velocidade += 0.5;
+			
+		else
+			ganhar_pontos(10);
 	}
 	
 	diminuirCooldown = function()
 	{
 		if(cooldown > 18.83)
 			cooldown -= cooldown * 0.1;
+			
+		else
+			ganhar_pontos(10);
 	}
 	
 	aumentarLevelTiro = function()
 	{
 		if(level_tiro < 5)
 			level_tiro++;
+			
+		else
+			ganhar_pontos(100);
+			
 	}
 	
 	
@@ -103,5 +120,25 @@ powerUP = function(porcentagem)
 		diminuirCooldown();
 		
 }
+
+///@method perde_vida();
+function perde_vida()
+{
+	if(!meu_escudo)
+	{
+		if(vida > 0){
+			vida --;
+			screenshake(5);
+		}
+		
+	
+		else{
+			instance_destroy(id);
+			screenshake(20);
+		}	
+	}
+		
+}
+
 
 

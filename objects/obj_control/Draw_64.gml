@@ -11,8 +11,9 @@ if(instance_exists(obj_player))
 	cooldown = obj_player.cooldown / 60;
 	tiro = obj_player.level_tiro;
 	
-}
 
-draw_text(20,80, "Velocidade: " + string(velocidade));
-draw_text(20,100, "Velocidade de Disparo: " + string(cooldown));
-draw_text(20,120, "Level do Tiro: " + string(tiro));
+
+	draw_text(20,80, "Velocidade: " + string(velocidade));
+	draw_text(20,100, "Velocidade de Disparo: " + string(cooldown));
+	draw_text(20,120, "Level do Tiro: " + string(tiro));
+}

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_tiro_enemy_detalhe",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 109,
   "height": 109,
   "textureGroupId": {
@@ -24,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"92a4d7e8-c58e-48e4-9f4d-b0369aae7370","path":"sprites/spr_tiro_enemy_detalhe/spr_tiro_enemy_detalhe.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"92a4d7e8-c58e-48e4-9f4d-b0369aae7370","path":"sprites/spr_tiro_enemy_detalhe/spr_tiro_enemy_detalhe.yy",},"LayerId":{"name":"7a73a87e-72c2-463a-b45e-7df78f779187","path":"sprites/spr_tiro_enemy_detalhe/spr_tiro_enemy_detalhe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_tiro_enemy_detalhe","path":"sprites/spr_tiro_enemy_detalhe/spr_tiro_enemy_detalhe.yy",},"resourceVersion":"1.0","name":"92a4d7e8-c58e-48e4-9f4d-b0369aae7370","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92a4d7e8-c58e-48e4-9f4d-b0369aae7370",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_tiro_enemy_detalhe","path":"sprites/spr_tiro_enemy_detalhe/spr_tiro_enemy_detalhe.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_tiro_enemy_detalhe",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -40,9 +44,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"073f366b-5690-422c-9707-bedd9b9c235d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92a4d7e8-c58e-48e4-9f4d-b0369aae7370","path":"sprites/spr_tiro_enemy_detalhe/spr_tiro_enemy_detalhe.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +62,13 @@
     "yorigin": 54,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_tiro_enemy_detalhe","path":"sprites/spr_tiro_enemy_detalhe/spr_tiro_enemy_detalhe.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_tiro_enemy_detalhe",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7a73a87e-72c2-463a-b45e-7df78f779187","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7a73a87e-72c2-463a-b45e-7df78f779187","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Etc",
     "path": "folders/Sprites/Etc.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_tiro_enemy_detalhe",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
