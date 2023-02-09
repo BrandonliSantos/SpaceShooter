@@ -13,7 +13,7 @@ else{
 	
 if(alpha >= 1 && !trocou_room)
 {
-	room_goto(rm_level1);
+	room_goto(destino);
 	trocou_room = true;
 }
 

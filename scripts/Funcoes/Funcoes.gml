@@ -32,3 +32,9 @@ function cria_seq()
 
 	instance_destroy(obj_player, false);
 }
+
+function cria_transicao()
+{
+	var transicao = instance_create_layer(0,0,"Player", obj_transicao);
+	transicao.destino = rm_inicio;
+}

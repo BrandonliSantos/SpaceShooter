@@ -5,3 +5,5 @@ ganhar_pontos(pontos);
 	
 
 dropa_item(chance);
+
+global.total_inimigos++;
