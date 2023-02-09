@@ -1,6 +1,9 @@
 # SpaceShooter
 Jogo desenvolvido na engine GameMakerStudio 2 para fins de estudo e aprendizado
 
+Link:
+https://gx.games/games/2hq33y/space-shooter-by-locsfudz/tracks/18597027-5039-4d37-bc99-82de858e629a
+
 Músicas e artes não são de minha autoria, segue abaixo os devidos créditos aos seus criadores:
 
 "Darkling" Kevin MacLeod (incompetech.com)
