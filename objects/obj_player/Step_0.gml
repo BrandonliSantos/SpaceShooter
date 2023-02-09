@@ -18,24 +18,6 @@ y = clamp(y, 64, 1024);
 
 atirando();
 
-//debug
-if(keyboard_check_pressed(vk_up))
-	level_tiro++;
-	
-if(keyboard_check_pressed(vk_down))
-	level_tiro--;
-	
-show_debug_message(level_tiro);
-
-
-if(keyboard_check_pressed(vk_left))
-	cooldown = cooldown - (cooldown*0.1);
-	
-	if(keyboard_check_pressed(vk_right))
-	cooldown = cooldown + (cooldown*0.1);
-
-
-
 
 //criando escudo ao apertar E
 if(escudo && escudos_disponiveis > 0 && !meu_escudo)

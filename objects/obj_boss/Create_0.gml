@@ -10,6 +10,8 @@
 	Estado Especial = Ficar ivulneravel enquanto cria dois minions para recuperar vida
 */
 
+audio_play_sound(snd_boss_fight, 0, true);
+
 cooldown = room_speed / 2;
 
 vida_max = 1500;
@@ -56,6 +58,7 @@ function estado1()
 {
 	if(alarm[2] == -1){
 		instance_create_layer(x, y + sprite_height/4, "Tiros", obj_tiro2);
+		audio_play_sound(sfx_laser1, 1, false);
 		alarm[2] = cooldown;
 	}
 }
@@ -65,6 +68,7 @@ function estado2()
 	if(alarm[0] == -1){
 		instance_create_layer(x + 160, y + 10, "Tiros", obj_tiro1);
 		instance_create_layer(x - 160, y + 10, "Tiros", obj_tiro1);
+		audio_play_sound(sfx_laser1, 1, false);
 		alarm[0] = cooldown;
 	}
 	
@@ -101,15 +105,20 @@ function estado3()
 	if(espera_tiro <= 0)
 		espera_tiro = cooldown * 2;
 	
-	if(espera_tiro == cooldown)
+	if(espera_tiro == cooldown){
 		instance_create_layer(x - 160, y + 10, "Tiros", obj_tiro1);
+		audio_play_sound(sfx_laser1, 1, false);
+	}
 	
-	if(espera_tiro == cooldown + round(cooldown / 2))
+	if(espera_tiro == cooldown + round(cooldown / 2)){
 		instance_create_layer(x + 160, y + 10, "Tiros", obj_tiro1);
+		audio_play_sound(sfx_laser1, 1, false);
+	}
 	
 	if(alarm[2] == -1)
 	{
 		instance_create_layer(x, y + sprite_height/4, "Tiros", obj_tiro2);
+		audio_play_sound(sfx_laser1, 1, false);
 		alarm[2] = cooldown * 2;
 	}
 }

@@ -1,6 +1,6 @@
-draw_text(20,20,pontos);
+draw_text(20,20, "Pontos: " + string(pontos));
 
-draw_text(20, 40, "level " + string(level));
+draw_text(20, 40, "Level " + string(level));
 
 //Atributos Player
 var velocidade, cooldown, tiro;

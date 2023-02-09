@@ -13,7 +13,6 @@ if(alarm[1] == -1)
 	alterarEstado();
 }
 
-show_debug_message(string("estado: {0}", estado_atual));
 
 switch(estado_atual){
 	case 1:

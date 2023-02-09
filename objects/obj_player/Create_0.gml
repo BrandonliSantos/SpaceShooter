@@ -48,6 +48,7 @@ atirando = function()
 	if(keyboard_check(vk_space) && alarm[0] == -1)
 	{
 		alarm[0] = cooldown;
+		audio_play_sound(sfx_laser2, 1, false);
 		if(level_tiro == 1)
 		{
 			instance_create_layer(x, y_tiro, "Tiros", obj_player_tiro);
