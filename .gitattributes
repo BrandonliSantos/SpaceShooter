@@ -1,0 +1,26 @@
+*.yy linguist-detectable=false
+*.yyp linguist-detectable=false
+*.yys linguist-detectable=false
+*.yyz linguist-detectable=false
+*.yyu linguist-detectable=false
+*.yyf linguist-detectable=false
+
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.jpeg linguist-detectable=false
+*.wav linguist-detectable=false
+*.mp3 linguist-detectable=false
+*.ogg linguist-detectable=false
+*.ttf linguist-detectable=false
+*.otf linguist-detectable=false
+*.json linguist-detectable=false
+
+*.shader linguist-detectable=false
+*.fsh linguist-detectable=false
+*.vsh linguist-detectable=false
+
+*.dll linguist-detectable=false
+*.exe linguist-detectable=false
+*.zip linguist-detectable=false
+*.tar.gz linguist-detectable=false
+*.bin linguist-detectable=false
